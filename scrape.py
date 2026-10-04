@@ -16,6 +16,7 @@ videos = driver.find_elements(By.XPATH, "//a[@id='video-title']")
 
 results = []
 # helper function to extract video details (title and link)
+# loop through each video element and extract the title and link
 for v in videos:
     title = v.text.strip()
     link = v.get_attribute("href")
