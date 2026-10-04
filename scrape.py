@@ -26,6 +26,8 @@ for v in videos:
 
 print("\nTop results:\n")
 
+# print the top 10 results
+# edit as needed to change the number of results displayed
 for title, link in results[:10]:
     print(title)
     print(link)
